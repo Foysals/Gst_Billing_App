@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class VendorInvoice extends Controller
 {
-    //
+    public function index(){
+        return view("vendor-invoice.index");
+    }
 }

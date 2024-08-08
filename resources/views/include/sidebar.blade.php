@@ -22,7 +22,7 @@
                     <div class="collapse" id="sidebarEcommerce">
                         <ul class="nav-second-level">
                             <li>
-                                <a href=""><i data-feather="plus" class="pr-0 mr-1"></i>Add
+                                <a href="{{route('party.add')}}"><i data-feather="plus" class="pr-0 mr-1"></i>Add
                                     New</a>
                             </li>
                             <li>
@@ -42,10 +42,10 @@
                     <div class="collapse" id="sidebarCrm">
                         <ul class="nav-second-level">
                             <li>
-                                <a href=""><i data-feather="plus" class="pr-0 mr-1"></i>Create bill</a>
+                                <a href="{{route('gst.add')}"><i data-feather="plus" class="pr-0 mr-1"></i>Create bill</a>
                             </li>
                             <li>
-                                <a href=""><i data-feather="list" class="pr-0 mr-1"></i>Manage all bills</a>
+                                <a href="{{route('gst.index')}"><i data-feather="list" class="pr-0 mr-1"></i>Manage all bills</a>
                             </li>
                         </ul>
                     </div>
